@@ -1,0 +1,85 @@
+.portadaUno {
+    background: url('../../img/portada-ministeriosalud.jpeg') no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+}
+
+.portadaDos {
+    background: url('../../img/portada1-ministeriosalud.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+}
+
+.portadaTres {
+    background: url('../../img/portada2-ministeriosalud.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 600px;
+}
+
+.backG {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.icono {
+    size: 90px;
+}
+
+.iconoBg {
+    background-color: rgb(252, 250, 249);
+    width: 180px;
+    height: 180px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    
+}
+
+.btnHosp {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.btnProg {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.btnCent {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.btnSanit {
+    width: 180px;
+    height: 50px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 50px 50px 50px 50px;
+}
+
+.cardInfo {
+    border-radius: 60px 60px 60px 60px;
+}
+
+.servicios {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.cardServ {
+    border: 0px;
+    border-radius: 25px 25px 25px 25px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardImg {
+    max-height: 200px;
+    object-fit: cover;
+    border: 0px;
+    border-radius: 25px 25px 0px 0px;
+}

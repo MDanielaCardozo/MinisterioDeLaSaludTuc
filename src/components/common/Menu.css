@@ -1,0 +1,20 @@
+.colorNav {
+    background: rgb(0,0,0);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgb(0, 0, 0));
+}
+
+.hovMenu:hover {
+    color: rgb(52, 171, 250) !important;
+}
+
+@media all and (min-width:992px) {
+    .logo{
+        display: none;
+    }    
+}
+
+@media all and (max-width:991px) {
+    .logoResponsive{
+        display: none;
+    }    
+}
