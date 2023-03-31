@@ -1,19 +1,19 @@
 .portadaUno {
-    background: url('../../img/portada-ministeriosalud.jpeg') no-repeat center/cover;
+    background: url('../../img/ministro.jpeg') no-repeat center/cover;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 .portadaDos {
-    background: url('../../img/portada1-ministeriosalud.jpg') no-repeat center/cover;
+    background: url('../../img/campaña.jpeg') no-repeat center/cover;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 .portadaTres {
-    background: url('../../img/portada2-ministeriosalud.jpg') no-repeat center/cover;
+    background: url('../../img/campañaEnfer.jpeg') no-repeat center/cover;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 .backG {
@@ -31,6 +31,15 @@
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
     margin-bottom: 30px;
     
+}
+
+.iconoBg:hover {
+    transition: 500ms;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    position: relative;
 }
 
 .btnHosp {
@@ -75,6 +84,14 @@
     border: 0px;
     border-radius: 25px 25px 25px 25px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardServ:hover {
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    position: relative;
 }
 
 .cardImg {

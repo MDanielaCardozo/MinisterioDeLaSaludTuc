@@ -16,7 +16,7 @@ const Menu = () => {
                         <img
                             alt='Logo gobierno de Tucumán'
                             src={Logo}
-                            width='380px'
+                            width='240px'
                             className='logo'
                         />
                     </Link>
