@@ -31,24 +31,24 @@ const Home = () => {
       <section className="carousel">
         <Carousel>
           <Carousel.Item className="portadaUno">
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
           <Carousel.Item className="portadaDos">
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
           <Carousel.Item className="portadaTres">
-            <Carousel.Caption>
+            {/* <Carousel.Caption>
               <h3>Third slide label</h3>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
               </p>
-            </Carousel.Caption>
+            </Carousel.Caption> */}
           </Carousel.Item>
         </Carousel>
       </section>
@@ -169,84 +169,84 @@ const Home = () => {
           <Row className="d-flex flex-wrap">
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                     <Card.Img variant="top" src={IndAt} className="cardImg m-0 p-0"/>
-                    </Link>
                     <Card.Body>
                         <Card.Text className="h5 text-light">Indicadores de Atención</Card.Text>
                     </Card.Body>
+                    </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={MapNut} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body >
                         <Card.Text className="h5 text-light">Mapa de Efectores con Nutricionistas</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={Immca} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Medicina Molecular y Celular Aplicada</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={NodRs} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Nodo Rosa</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
           </Row>
           <Row className="d-flex flex-wrap">
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={Deng} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Plan Dengue</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={BolDig} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Boleta Digital</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={CanCap} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Canal de Capacitación RRHH</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={SalSit} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Sala de Situación</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
           </Row>
@@ -254,42 +254,42 @@ const Home = () => {
           <Row className="d-flex flex-wrap">
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={RegElec} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Registro Provincial de Electrodependientes</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={ResMed} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Residencias Médicas</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={EstSal} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Estratégias de Salud Pública</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
             <Col sm={12} md={6} lg={3} className="d-flex justify-content-center">
               <Card className="m-3 cardServ w-100">
-                <Link to={'/'}>
+                <Link to={'/'} className="text-decoration-none">
                 <Card.Img variant="top" src={RecGraf} className="cardImg m-0 p-0"/>
-                </Link>
                 <Card.Body>
                         <Card.Text className="h5 text-light">Rescursos gráficos y campañas</Card.Text>
                     </Card.Body>
+                </Link>
               </Card>
             </Col>
           </Row>
