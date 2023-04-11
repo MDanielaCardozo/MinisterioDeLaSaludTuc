@@ -32,11 +32,11 @@
 
 @media all and (min-width: 992px) and (max-width: 1200px) {
     .footerColDos {
-        width: 280px;
+        width: 270px;
     }
 
     .logoFooter {
-        width: 330px;
+        width: 300px;
     }
 
     .footerColTres {

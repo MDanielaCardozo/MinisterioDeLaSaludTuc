@@ -10,6 +10,7 @@ import InformacionSanitaria from './components/views/InformacionSanitaria';
 import ProgramaDeSalud from './components/views/ProgramaDeSalud';
 import Noticias from './components/views/Noticias';
 import Footer from './components/common/Footer';
+import Ministerio from './components/views/Ministerio';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Menu></Menu>
       <Routes>
         <Route exact path="/" element={<Home/>}></Route>
+        <Route exact path="/ministerio" element={<Ministerio></Ministerio>}></Route>
         <Route exact path="/direcciones" element={<Direcciones></Direcciones>}></Route>
         <Route exact path="/hospitales" element={<Hospitales></Hospitales>}></Route>
         <Route exact path="/centrosSanitarios" element={<CentrosSanitarios></CentrosSanitarios>}></Route>

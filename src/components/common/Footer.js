@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="container-fluid bg-dark footer">
       <div className="container p-5">
         <Row className="d-flex flex-wrap ">
-          <Col sm={12} md={12} lg={4} className="d-flex justify-content-center pt-3 border-end-lg footerCol border-end">
+          <Col sm={12} md={12} lg={4} className="d-flex justify-content-center pt-3 footerCol border-end-lg">
             <Link to="/">
               <img
                 alt="Logo gobierno de Tucumán"
@@ -21,7 +21,7 @@ const Footer = () => {
               />
             </Link>
           </Col>
-          <Col sm={12} md={12} lg={4} className="d-flex justify-content-center border-end">
+          <Col sm={12} md={12} lg={4} className="d-flex justify-content-center">
           <Link to="/">
               <img
                 alt="Logo gobierno de Tucumán"
