@@ -9,17 +9,17 @@ const Direcciones = () => {
         <div className="my-5">
           <h1>Direcciones Generales y Departamentos</h1>
         </div>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralEnfermeria"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center pt-4">
             <h4>Dirección General de Enfermería</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralSaludAmbiental"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección General de Salud Ambiental</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralRedDeServicios"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección General de Red de Servicios</h4>
           </div>
