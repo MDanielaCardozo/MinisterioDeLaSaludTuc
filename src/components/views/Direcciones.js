@@ -24,47 +24,47 @@ const Direcciones = () => {
             <h4>Dirección General de Red de Servicios</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralProgramaIntegradoDeSalud"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección General de Programa Integrado de Salud</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralFiscalizacionSanitaria"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección General Fiscalización Sanitaria</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralDeRecursosHumanos"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección General Recursos Humanos en Salud</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralDeGestionTecnologicaMedica"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección General de Gestión de Tecnología Médica</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralDeSaludMentalYAdicciones"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección General de Salud Mental y Adicciones</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionGeneralDeEpidemiologia"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección Epidemiología</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/direccionDeInvestigacionEnSalud"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Dirección de Investigación en Salud</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/departamentoInformatica"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Departamento de Informática</h4>
           </div>
         </Link>
-        <Link to={"/"} className="text-decoration-none text-light">
+        <Link to={"/direcciones/departamentoBioquimico-LaboratorioDeSaludPublica"} className="text-decoration-none text-light">
           <div className="cardDir text-light text-center my-4 pt-4">
             <h4>Departamento Bioquímico - Laboratorio de Salud Pública</h4>
           </div>

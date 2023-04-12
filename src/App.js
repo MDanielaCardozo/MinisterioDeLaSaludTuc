@@ -14,6 +14,15 @@ import Ministerio from './components/views/Ministerio';
 import DireccionGralEnfermeria from './components/views/DireccionGralEnfermeria';
 import DireccionGralSaludAmb from './components/views/DireccionGralSaludAmb';
 import DireccionGralRedDeServ from './components/views/DireccionGralRedDeServ';
+import DireccionGralProgIntSal from './components/views/DireccionGralProgIntSal';
+import DireccionGralFiscSanit from './components/views/DireccionGralFiscSanit';
+import DireccionGralRecursosHum from './components/views/DireccionGralRecursosHum';
+import DireccionGralDeTecnoMedica from './components/views/DireccionGralDeTecnoMedica';
+import DireccionGralDeSaludMentalAdic from './components/views/DireccionGralDeSaludMentalAdic';
+import DireccionGralDeEpidemiologia from './components/views/DireccionGralDeEpidemiologia';
+import DireccionDeInvestigSalud from './components/views/DireccionDeInvestigSalud';
+import DepartamentoInformatica from './components/views/DepartamentoInformatica';
+import DepartamentoBioquimico from './components/views/DepartamentoBioquimico';
 
 
 const App = () => {
@@ -29,7 +38,15 @@ const App = () => {
         <Route exact path="/direcciones/direccionGeneralEnfermeria" element={<DireccionGralEnfermeria></DireccionGralEnfermeria>}></Route>
         <Route exact path="/direcciones/direccionGeneralSaludAmbiental" element={<DireccionGralSaludAmb></DireccionGralSaludAmb>}></Route>
         <Route exact path="/direcciones/direccionGeneralRedDeServicios" element={<DireccionGralRedDeServ></DireccionGralRedDeServ>}></Route>
-        <Route exact path="/direcciones/direccionGeneralProgramaIntegradoDeSalud" element={<DireccionGralRedDeServ></DireccionGralRedDeServ>}></Route>
+        <Route exact path="/direcciones/direccionGeneralProgramaIntegradoDeSalud" element={<DireccionGralProgIntSal></DireccionGralProgIntSal>}></Route>
+        <Route exact path="/direcciones/direccionGeneralFiscalizacionSanitaria" element={<DireccionGralFiscSanit></DireccionGralFiscSanit>}></Route>
+        <Route exact path="/direcciones/direccionGeneralDeRecursosHumanos" element={<DireccionGralRecursosHum></DireccionGralRecursosHum>}></Route>
+        <Route exact path="/direcciones/direccionGeneralDeGestionTecnologicaMedica" element={<DireccionGralDeTecnoMedica></DireccionGralDeTecnoMedica>}></Route>
+        <Route exact path="/direcciones/direccionGeneralDeSaludMentalYAdicciones" element={<DireccionGralDeSaludMentalAdic></DireccionGralDeSaludMentalAdic>}></Route>
+        <Route exact path="/direcciones/direccionGeneralDeEpidemiologia" element={<DireccionGralDeEpidemiologia></DireccionGralDeEpidemiologia>}></Route>
+        <Route exact path="/direcciones/direccionDeInvestigacionEnSalud" element={<DireccionDeInvestigSalud></DireccionDeInvestigSalud>}></Route>
+        <Route exact path="/direcciones/departamentoInformatica" element={<DepartamentoInformatica></DepartamentoInformatica>}></Route>
+        <Route exact path="/direcciones/departamentoBioquimico-LaboratorioDeSaludPublica" element={<DepartamentoBioquimico></DepartamentoBioquimico>}></Route>
         <Route exact path="/hospitales" element={<Hospitales></Hospitales>}></Route>
         <Route exact path="/centrosSanitarios" element={<CentrosSanitarios></CentrosSanitarios>}></Route>
         <Route exact path="/informacionSanitaria" element={<InformacionSanitaria></InformacionSanitaria>}></Route>
