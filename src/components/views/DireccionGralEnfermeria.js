@@ -56,7 +56,7 @@ const DireccionGralEnfermeria = () => {
               una practica humanizada.
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="0">
+          <Accordion.Item eventKey="1">
             <Accordion.Header>Actividades</Accordion.Header>
             <Accordion.Body>
               <ul>
@@ -73,7 +73,7 @@ const DireccionGralEnfermeria = () => {
               </ul>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="0">
+          <Accordion.Item eventKey="2">
             <Accordion.Header>Funciones</Accordion.Header>
             <Accordion.Body>
               <ul>
@@ -176,7 +176,7 @@ const DireccionGralEnfermeria = () => {
               </ul>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="0">
+          <Accordion.Item eventKey="3">
             <Accordion.Header>Organigrama:</Accordion.Header>
             <Accordion.Body className="d-flex justify-content-center">
                 <img src={Organigrama} alt="Organmigrama Enfermería" /> 
