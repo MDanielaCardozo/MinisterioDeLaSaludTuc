@@ -7,7 +7,6 @@ import Direcciones from './components/views/Direcciones';
 import Hospitales from './components/views/Hospitales';
 import CentrosSanitarios from './components/views/CentrosSanitarios';
 import InformacionSanitaria from './components/views/InformacionSanitaria';
-import ProgramaDeSalud from './components/views/ProgramaDeSalud';
 import Noticias from './components/views/Noticias';
 import Footer from './components/common/Footer';
 import Ministerio from './components/views/Ministerio';
@@ -50,7 +49,6 @@ const App = () => {
         <Route exact path="/hospitales" element={<Hospitales></Hospitales>}></Route>
         <Route exact path="/centrosSanitarios" element={<CentrosSanitarios></CentrosSanitarios>}></Route>
         <Route exact path="/informacionSanitaria" element={<InformacionSanitaria></InformacionSanitaria>}></Route>
-        <Route exact path="/programaDeSalud" element={<ProgramaDeSalud></ProgramaDeSalud>}></Route>
         <Route exact path="/noticias" element={<Noticias></Noticias>}></Route>
       </Routes>
       <Footer></Footer>

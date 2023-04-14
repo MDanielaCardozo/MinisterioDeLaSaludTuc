@@ -115,7 +115,7 @@ const Home = () => {
               className="d-flex justify-content-center my-3"
             >
               <div>
-                <Link to={"/programaDeSalud"}>
+                <Link to={"/direcciones/direccionGeneralProgramaIntegradoDeSalud"}>
                   <div className="iconoBg rounded-5 fa-7x text-center text-danger">
                     <FontAwesomeIcon icon={faSuitcaseMedical} />
                   </div>
@@ -446,7 +446,7 @@ const Home = () => {
         </div>
       </section>
       <section className="youtube container">
-        <div>
+        <div className="my-5">
           <Row>
             <Col sm={12} lg={4} className="my-5">
               <div className="youtubeVideo">
