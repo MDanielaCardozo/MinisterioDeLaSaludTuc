@@ -59,7 +59,7 @@ const DireccionGralSaludAmb = () => {
         </ul>
         <h3>Organigrama</h3>
         <div className="d-flex justify-content-center my-5">
-          <img src={OrgSalAmb} alt="" srcset="" className="" />
+          <img src={OrgSalAmb} alt="" className="" />
         </div>
         <h2>Instructivo para muestra de agua</h2>
         <ul>
@@ -86,6 +86,7 @@ const DireccionGralSaludAmb = () => {
           target="_blank"
           className="new-tab pagina-adjunto adjunto-pdf"
           href="https://msptucuman.gov.ar/wordpress/wp-content/uploads/2020/12/archivo_287_20201229162120.pdf"
+          rel="noreferrer noopener"
         >
           Resolución COE N°157
         </a>
@@ -93,6 +94,7 @@ const DireccionGralSaludAmb = () => {
           target="_blank"
           className="new-tab pagina-adjunto adjunto-pdf"
           href="https://msptucuman.gov.ar/wordpress/wp-content/uploads/2021/01/Resolucion-508-SPS-2020.pdf"
+          rel="noreferrer noopener"
         >
           Resolución 508-SPS-2020
         </a>

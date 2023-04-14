@@ -179,7 +179,7 @@ const DireccionGralEnfermeria = () => {
           <Accordion.Item eventKey="3">
             <Accordion.Header>Organigrama:</Accordion.Header>
             <Accordion.Body className="d-flex justify-content-center">
-                <img src={Organigrama} alt="Organmigrama Enfermería" /> 
+                <img src={Organigrama} alt="Organmigrama Enfermería" className="w-100"/> 
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

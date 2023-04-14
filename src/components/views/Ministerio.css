@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* { 
+    font-family: 'Roboto', sans-serif;
+}
+
+.cardMinisterio h1 {
+    font-weight: 500;
+}
+
 .bgColor {
-    background-color: rgba(0, 0, 0, 0.15);
+    background-color: rgba(0, 0, 0, 0.);
     padding-bottom: 60px;
 }
 
@@ -20,7 +30,7 @@
 }
 
 .cardMinisterio {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.37);
     border-radius: 20px 0px 0px 20px;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.5);
 } 
@@ -47,8 +57,7 @@
 }
 
 .acordion {
-    background-color: rgb(52, 171, 250);
-    border-radius: 20px 20px 20px 20px !important;
+    background-color: rgb(157, 214, 252);
 }
 
 .cardSec {
@@ -81,4 +90,19 @@
     background-color: rgb(111, 113, 114);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.cardLegi :hover {
+    transition: 500ms;
+    top: 5px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px){
+    .cardSecret {
+        margin: 30px;
+    }
 }

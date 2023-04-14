@@ -109,7 +109,7 @@ const Ministerio = () => {
       </section>
       <section className="container">
         <div className="cardSec d-flex justify-content-around">
-          <div className="text-light mt-lg-5 mt-md-5 mt-sm-3 text-center">
+          <div className="text-light mt-lg-5 mt-md-5 text-center cardSecret">
             <h3>Secretario Ejecutivo Médico</h3>
             <p>Dr. Miguel Ferre Contreras</p>
           </div>
@@ -132,20 +132,26 @@ const Ministerio = () => {
       </section>
       <section className="container mt-5">
         <h1 className="text-center m-4">Legislacion</h1>
+        <div className="cardLegi">
         <div className="cardLeg text-light text-center mb-3 pt-4">
           <Link to={"/"} className="text-decoration-none text-light">
             <h4>Decretos Reglamentarios-Salud</h4>
           </Link>
         </div>
+        </div>
+        <div className="cardLegi">
         <div className="cardLeg text-light text-center mb-3 pt-4">
           <Link to={"/"} className="text-decoration-none text-light">
             <h4>Leyes Vigentes</h4>
           </Link>
         </div>
+        </div>
+        <div className="cardLegi">
         <div className="cardLeg text-light text-center mb-3 pt-4">
           <Link to={'/'} className="text-decoration-none text-light">
           <h4>Resoluciones</h4>
           </Link>
+        </div>
         </div>
       </section>
     </div>

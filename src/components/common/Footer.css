@@ -43,4 +43,19 @@
         width: 230px;
     }
 }
+
+@media all and (min-width: 300px) and (max-width: 760px) {
+    
+     .logoFooter {
+        width: 260px;
+     }
+
+     .footerColDos {
+        width: 260px;
+     }
+
+     .footerColTres {
+        width: 240px;
+     }
+}
     
